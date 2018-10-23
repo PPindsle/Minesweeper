@@ -1,2 +1,2 @@
 # Practice-projects
-Programming projects for practice
+Recreating existing games or programs for practice.
