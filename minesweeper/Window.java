@@ -30,8 +30,6 @@ public class Window {
 
 		JButton button = new JButton("Restart");
 		button.setBounds(10, 10, 100, 30);
-		button.setOpaque(true);
-		button.setVisible(true);
 		Window.frame.add(button);
 	}
 
