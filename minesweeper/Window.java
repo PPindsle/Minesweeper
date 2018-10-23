@@ -30,7 +30,7 @@ public class Window {
 
 		JButton button = new JButton("Restart");
 		button.setBounds(10, 10, 100, 30);
-		Window.frame.add(button);
+		frame.add(button);
 	}
 
 }
