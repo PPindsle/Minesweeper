@@ -8,6 +8,7 @@ import java.util.Random;
 public class Cell {
 
 	public static int cellSize = 30;
+	public static int mineSize = 15;
 
 	public int x;
 	public int y;
@@ -18,8 +19,6 @@ public class Cell {
 	public boolean isMine = false;
 	public boolean isFlagged = false;
 	public boolean clickedMine = false;
-
-	public static int mineSize = 15;
 
 	public float minePercentage = 0.15f;
 
