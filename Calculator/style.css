@@ -1,0 +1,53 @@
+body {
+  color: white;
+  font-family: verdana;
+}
+#kalkulator {
+  background-color: #1f1f1f;
+  margin: auto;
+  padding: 10px;
+  width: 300px;
+  height: 450px;
+}
+#display {
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: right;
+  font-size: 40px;
+  line-height: 60px;
+  vertical-align: center;
+  height: 70px;
+}
+#topDisplay {
+  font-size: 10px;
+  line-height: 20px;
+  text-align: right;
+  height: 20px;
+}
+table {
+  width: 100%;
+  text-align: center;
+}
+#numPad {
+  font-size: 15px;
+  height: 80%;
+  display: table;
+  table-layout:fixed;
+}
+td {
+  cursor: pointer;
+  user-select: none;
+}
+#numPad td {
+  background-color: #9c27b0;
+  padding: 0px;
+  transition: .2s;
+}
+.number {
+  font-size: 20px;
+}
+#numPad td:hover {
+  background-color: #9c27b090;
+}
